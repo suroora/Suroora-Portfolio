@@ -1,7 +1,7 @@
 /* ---------- General ----------------- */
 body {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #0c182b;
+  color: #ffffff
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -40,7 +40,7 @@ section {
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 75px;
+  margin-bottom: 15px;
 }
 
 section h3.section-subheading {
@@ -103,7 +103,7 @@ u {
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #11dd81 !important;
   border-color: #11dd81 !important;
-  color: #000000 !important;
+  color: #0c182b !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -121,7 +121,7 @@ u {
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
   background-color: #11dd81 !important;
   border-color: #11dd81 !important;
-  color: #000000;
+  color: #0c182b;
 }
 
 .btn-secondary:active, .btn-secondary:focus {
@@ -131,7 +131,7 @@ u {
 .btn-secondary:not(:disabled):not(.disabled).active {
   background-color: #11dd81 !important;
   border-color: #11dd81 !important;
-  color: #000000;
+  color: #0c182b;
 }
 
 
@@ -163,7 +163,7 @@ img::-moz-selection {
   right: 0;
   padding: 13px;
   text-transform: uppercase;
-  color: #000000;
+  color: #0c182b;
   border: 0;
   background-color: #11dd81;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -202,7 +202,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #11dd81;
-  background-color: #000000;
+  background-color: #0c182b;
   border-bottom: 3px solid #11dd81;
 }
 
@@ -229,7 +229,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #000000;
+    background-color: #0c182b;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -400,7 +400,7 @@ header.masthead .intro-text .intro-heading {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: #000000;
+  color: #0c182b;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -563,7 +563,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content {
   padding: 10px 0;
-  background-color: #000000;
+  background-color: #0c182b;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -650,6 +650,8 @@ header.masthead .intro-text .intro-heading {
 
 
 
+
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -712,7 +714,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
-  color: #000000;
+  color: #0c182b;
 }
 
 footer span.copyright {
@@ -993,8 +995,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #particles-js{
   width: 100%;
-  height: auto;
-  background-color: #000000;
+  height: 800px;
+  background-color: #0c182b;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -1063,7 +1065,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (max-width: 767px) {
   .textlanding {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1082,22 +1084,19 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   }
 }
 
-section#particles-js{
-  width: 100%;
-  height: auto;
-  background-color: #000000;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
 
 <----------->
 
 #bg-override {
-  background-color: #000000 !important;
+  background-color: #0c182b !important;
 }
+
+
+
+
+
+<----------------------------------------------->
+
 
 
 -------------
@@ -1156,6 +1155,7 @@ section#particles-js{
 .timeline > li > .timeline-panel {
   width: 45%;
   float: left;
+  color: #929292;
   margin-bottom: 0;
   position: relative;
   -webkit-border-radius: 4px;
@@ -1165,12 +1165,12 @@ section#particles-js{
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-panel {
-    width: 85% !important;
+    width: 65% !important;
   }
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-panel {
-    width: 75% !important;
+    width: 65% !important;
   }
   .timeline > li > .timeline-panel:before {
     top: 30px;
